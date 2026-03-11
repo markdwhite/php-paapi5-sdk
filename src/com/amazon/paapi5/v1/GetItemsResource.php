@@ -68,6 +68,7 @@ class GetItemsResource
     const OFFERSLISTINGSLOYALTY_POINTSPOINTS = 'Offers.Listings.LoyaltyPoints.Points';
     const OFFERSLISTINGSMERCHANT_INFO = 'Offers.Listings.MerchantInfo';
     const OFFERSLISTINGSPRICE = 'Offers.Listings.Price';
+    const OFFERSV2LISTINGSPRICE = 'OffersV2.Listings.Price';
     const OFFERSLISTINGSPROGRAM_ELIGIBILITYIS_PRIME_EXCLUSIVE = 'Offers.Listings.ProgramEligibility.IsPrimeExclusive';
     const OFFERSLISTINGSPROGRAM_ELIGIBILITYIS_PRIME_PANTRY = 'Offers.Listings.ProgramEligibility.IsPrimePantry';
     const OFFERSLISTINGSPROMOTIONS = 'Offers.Listings.Promotions';
@@ -135,6 +136,7 @@ class GetItemsResource
             self::OFFERSLISTINGSLOYALTY_POINTSPOINTS,
             self::OFFERSLISTINGSMERCHANT_INFO,
             self::OFFERSLISTINGSPRICE,
+            self::OFFERSV2LISTINGSPRICE,
             self::OFFERSLISTINGSPROGRAM_ELIGIBILITYIS_PRIME_EXCLUSIVE,
             self::OFFERSLISTINGSPROGRAM_ELIGIBILITYIS_PRIME_PANTRY,
             self::OFFERSLISTINGSPROMOTIONS,
